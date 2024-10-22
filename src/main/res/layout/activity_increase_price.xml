@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nhập số tiền tăng giá -->
+    <TextView
+        android:text="Enter amount to increase electric unit price:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/editTextIncreaseAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter increase amount"
+        android:inputType="numberDecimal"/>
+
+    <!-- Nút tăng giá điện -->
+    <Button
+        android:id="@+id/buttonIncreasePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electric unit price increase"/>
+
+    <!-- Hiển thị thông báo -->
+    <TextView
+        android:id="@+id/textViewNotification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#ff0000"
+        android:visibility="gone"/>
+</LinearLayout>

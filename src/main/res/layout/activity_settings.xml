@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Switch để ẩn/hiện thông tin -->
+    <TextView
+        android:text="Hide/Show Customer Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/switchAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide/Show Address"
+        android:checked="true"/>
+
+    <Switch
+        android:id="@+id/switchElectricity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide/Show Used Electricity"
+        android:checked="true"/>
+
+    <Switch
+        android:id="@+id/switchUserType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide/Show User Type"
+        android:checked="true"/>
+
+    <Switch
+        android:id="@+id/switchPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide/Show Price"
+        android:checked="true"/>
+
+    <!-- Switch để bật/tắt nhạc -->
+    <TextView
+        android:text="Music Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+    <Switch
+        android:id="@+id/switchMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Background Music"
+        android:checked="false"/>
+</LinearLayout>

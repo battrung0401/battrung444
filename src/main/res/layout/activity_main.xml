@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextUsedNumElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Used Electricity"/>
+
+    <Button
+        android:id="@+id/buttonAddCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Customer"/>
+
+    <TextView
+        android:id="@+id/txtElectricityPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electricity Price"/>
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextUsedNumElectric"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Used Electricity"/>
+
+    <Button
+        android:id="@+id/buttonAddCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Customer"/>
+
+    <TextView
+        android:id="@+id/txtElectricityPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Electricity Price"/>
+
+</LinearLayout>
+
+
+
+
